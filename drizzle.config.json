@@ -1,0 +1,7 @@
+{
+  "dialect": "mysql",
+  "schema": "./src/db/schema.ts",
+  "dbCredentials": {
+    "url": "mysql://u136488108_clothing:EcoM1234C@194.59.164.63:3306/u136488108_ecom"
+  }
+}
