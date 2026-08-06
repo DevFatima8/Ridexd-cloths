@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const cat = getCategory(slug);
   return {
-    title: cat ? `${cat.name} — AURORA` : "AURORA",
+    title: cat ? `${cat.name} — Ridexd` : "Ridexd",
     description: cat?.description,
   };
 }

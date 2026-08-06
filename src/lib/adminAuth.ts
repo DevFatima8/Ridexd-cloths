@@ -3,8 +3,8 @@
 // Lightweight client-side admin auth. No database, no protected routes —
 // credentials are stored in the browser's localStorage only.
 
-const ACCOUNTS_KEY = "aurora-admin-accounts";
-const SESSION_KEY = "aurora-admin-session";
+const ACCOUNTS_KEY = "Ridexd-admin-accounts";
+const SESSION_KEY = "Ridexd-admin-session";
 
 type Account = { email: string; password: string; name: string };
 

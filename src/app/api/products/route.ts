@@ -80,7 +80,7 @@ export async function POST(request: Request) {
     const image =
       body.image ||
       "https://images.pexels.com/photos/3998648/pexels-photo-3998648.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800";
-    const description = body.description || "A new arrival from the AURORA studio.";
+    const description = body.description || "A new arrival from the Ridexd studio.";
 
     const [saved] = await db
       .insert(storeProducts)

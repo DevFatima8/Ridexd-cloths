@@ -15,7 +15,7 @@ export async function generateMetadata({
   const { slug } = await params;
   const product = getProduct(slug) ?? (await getProductBySlug(slug));
   return {
-    title: product ? `${product.name} — AURORA` : "AURORA",
+    title: product ? `${product.name} — Ridexd` : "Ridexd",
     description: product?.description,
   };
 }

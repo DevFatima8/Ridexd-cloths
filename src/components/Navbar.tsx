@@ -67,7 +67,7 @@ export default function Navbar() {
             href="/"
             className="font-display text-2xl font-semibold tracking-[0.2em] text-ink"
           >
-            AURORA
+            Ridexd
           </Link>
 
           <ul className="hidden items-center gap-8 lg:flex">

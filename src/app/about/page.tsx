@@ -2,9 +2,9 @@ import Link from "next/link";
 import Reveal from "@/components/Reveal";
 
 export const metadata = {
-  title: "Our Story — AURORA",
+  title: "Our Story — Ridexd",
   description:
-    "AURORA crafts considered clothing for the modern wardrobe — designed in-house and made responsibly.",
+    "Ridexd crafts considered clothing for the modern wardrobe — designed in-house and made responsibly.",
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://images.pexels.com/photos/7070775/pexels-photo-7070775.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=1600"
-          alt="Aurora atelier"
+          alt="Ridexd atelier"
           className="animate-slow-zoom h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-ink/55" />
@@ -31,7 +31,7 @@ export default function AboutPage() {
       <section className="mx-auto max-w-3xl px-5 py-20 text-center lg:px-8">
         <Reveal>
           <h2 className="font-display text-3xl leading-snug text-ink lg:text-4xl">
-            We started AURORA with a simple belief: your wardrobe should work
+            We started Ridexd with a simple belief: your wardrobe should work
             harder, not grow bigger.
           </h2>
           <p className="mt-6 leading-relaxed text-neutral-600">
@@ -92,7 +92,7 @@ export default function AboutPage() {
 
       <section className="bg-ink py-20 text-center text-sand">
         <Reveal className="mx-auto max-w-xl px-5">
-          <h2 className="font-display text-4xl">Join the AURORA community</h2>
+          <h2 className="font-display text-4xl">Join the Ridexd community</h2>
           <p className="mt-4 text-sand/70">
             Discover pieces designed to be worn, loved and kept for years.
           </p>

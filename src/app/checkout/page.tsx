@@ -79,7 +79,7 @@ export default function CheckoutPage() {
           headers: { Accept: "application/json" },
           body: (() => {
             const data = new FormData();
-            data.append("_subject", `New Order ${ref} — AURORA`);
+            data.append("_subject", `New Order ${ref} — Ridexd`);
             data.append("Order Reference", ref);
             data.append("Customer", payload.name);
             data.append("Email", payload.email);
@@ -117,7 +117,7 @@ export default function CheckoutPage() {
         </div>
         <h1 className="mt-6 font-display text-4xl text-ink">Order confirmed!</h1>
         <p className="mt-3 text-neutral-600">
-          Thank you for shopping with AURORA. A confirmation has been emailed and
+          Thank you for shopping with Ridexd. A confirmation has been emailed and
           our team will be in touch shortly.
         </p>
         <p className="mt-6 inline-block rounded-full bg-white px-6 py-3 text-sm ring-1 ring-black/5">

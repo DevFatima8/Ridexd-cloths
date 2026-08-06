@@ -32,7 +32,7 @@ export default function AdminSignupPage() {
         </p>
         <h1 className="mt-2 font-display text-4xl text-ink">Create account</h1>
         <p className="mt-2 text-sm text-neutral-500">
-          Register as an AURORA admin to manage the catalogue.
+          Register as an Ridexd admin to manage the catalogue.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-4">

@@ -565,7 +565,7 @@ export const products: Product[] = [
     image: px(35167842),
     gallery: [px(35167842), px(35240266)],
     description:
-      "A six-panel cotton cap with an embroidered AURORA mark and adjustable strap.",
+      "A six-panel cotton cap with an embroidered Ridexd mark and adjustable strap.",
     colors: ["Black", "Stone"],
     sizes: ["One Size"],
     rating: 4.6,

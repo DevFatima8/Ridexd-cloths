@@ -45,7 +45,7 @@ export default function ContactPage() {
 
           <div className="mt-10 space-y-6">
             {[
-              ["✉", "Email", "hello@aurora-studio.com"],
+              ["✉", "Email", "hello@Ridexd-studio.com"],
               ["☎", "Phone", "+1 (555) 018-2049"],
               ["⌖", "Studio", "24 Atelier Lane, Lahore & London"],
               ["◷", "Hours", "Mon–Sat · 9am – 7pm"],

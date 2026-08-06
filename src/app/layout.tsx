@@ -7,9 +7,9 @@ import Footer from "@/components/Footer";
 import CartDrawer from "@/components/CartDrawer";
 
 export const metadata: Metadata = {
-  title: "AURORA — Considered Clothing for the Modern Wardrobe",
+  title: "Ridexd — Considered Clothing for the Modern Wardrobe",
   description:
-    "AURORA is a premium clothing brand offering men's, women's, kids' and accessories collections. Shop elevated essentials with fast, secure checkout.",
+    "Ridexd is a premium clothing brand offering men's, women's, kids' and accessories collections. Shop elevated essentials with fast, secure checkout.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

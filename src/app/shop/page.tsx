@@ -3,8 +3,8 @@ import ProductBrowser from "@/components/ProductBrowser";
 import { getAllProducts } from "@/lib/store";
 
 export const metadata = {
-  title: "Shop All — AURORA",
-  description: "Browse the full AURORA collection across all categories.",
+  title: "Shop All — Ridexd",
+  description: "Browse the full Ridexd collection across all categories.",
 };
 
 export const dynamic = "force-dynamic";

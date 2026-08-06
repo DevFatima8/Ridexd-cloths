@@ -18,7 +18,7 @@ export default function HomePage() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src="https://images.pexels.com/photos/33402057/pexels-photo-33402057.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1400&w=1200"
-          alt="Aurora new season"
+          alt="Ridexd new season"
           className="animate-slow-zoom absolute inset-0 h-full w-full object-cover object-top"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/70 via-ink/30 to-transparent" />
@@ -166,7 +166,7 @@ export default function HomePage() {
           </Reveal>
           <Reveal delay={120}>
             <p className="text-xs uppercase tracking-[0.3em] text-gold">
-              The Aurora Standard
+              The Ridexd Standard
             </p>
             <h2 className="mt-3 font-display text-4xl leading-tight text-ink lg:text-5xl">
               Fewer, better things.

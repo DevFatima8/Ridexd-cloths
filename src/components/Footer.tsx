@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5 py-16 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div>
-            <h3 className="font-display text-3xl tracking-[0.2em]">AURORA</h3>
+            <h3 className="font-display text-3xl tracking-[0.2em]">Ridexd</h3>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-sand/70">
               Considered clothing for the modern wardrobe. Designed in-house,
               crafted responsibly, made to last.
@@ -106,7 +106,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-sand/15 pt-8 text-xs text-sand/50 md:flex-row">
-          <p>© {new Date().getFullYear()} Aurora Studio. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ridexd Studio. All rights reserved.</p>
           <p>Crafted with Next.js · Payments via secure order form</p>
         </div>
       </div>

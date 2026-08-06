@@ -31,7 +31,7 @@ export default function AdminLoginPage() {
         </p>
         <h1 className="mt-2 font-display text-4xl text-ink">Sign in</h1>
         <p className="mt-2 text-sm text-neutral-500">
-          Access the AURORA dashboard to manage products.
+          Access the Ridexd dashboard to manage products.
         </p>
 
         <form onSubmit={handleSubmit} className="mt-8 space-y-4">

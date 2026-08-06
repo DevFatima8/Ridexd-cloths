@@ -39,7 +39,7 @@ type CartContextValue = {
 
 const CartContext = createContext<CartContextValue | null>(null);
 
-const STORAGE_KEY = "aurora-cart-v1";
+const STORAGE_KEY = "Ridexd-cart-v1";
 
 const sameLine = (a: CartItem, b: Pick<CartItem, "slug" | "size" | "color">) =>
   a.slug === b.slug && a.size === b.size && a.color === b.color;
